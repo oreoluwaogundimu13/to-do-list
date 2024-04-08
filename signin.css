@@ -72,6 +72,11 @@ button {
     margin-top: 20px;
 
 }
+button a {
+    text-decoration: none;
+    color: #000000;
+
+}
 
 .or {
     width: 100%;
@@ -164,9 +169,41 @@ p a {
 
 
 
+
+@media (max-width: 880px) {
+    main {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin: 0 0;
+
+    }
+    aside:nth-child(1) {
+        display: none;
+    }
+
+    aside:nth-child(2) {
+        height: 90vh; 
+}
+}
+@media (min-width: 481px) and (max-width:767px) {
+    main {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin: 0 0;
+
+
+    }
+}
+
+
+
 @media (max-width: 480px) {
     aside:nth-child(1) {
-        
+
     }
     
 }

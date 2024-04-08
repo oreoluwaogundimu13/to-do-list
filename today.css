@@ -283,3 +283,25 @@ aside:nth-child(1) form a h3 {
 hr {
     margin-top: 3px;
 }
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+    
+    main {
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+aside:nth-child(1) {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+}
