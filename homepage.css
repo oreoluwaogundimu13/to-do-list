@@ -17,7 +17,7 @@ main {
 aside:nth-child(1) {
     width: 350px;
     height: 730px;
-    border-radius: 50px;
+    border-radius: 20px;
     background: #F4F4F4;
     padding: 20px 10px;
     
@@ -266,7 +266,11 @@ aside:nth-child(2) button {
     font-weight: 400;
     border: none;  
 }
-
+aside:nth-child(2) button a {
+    text-decoration: none;
+    color: #000000;
+    
+}
 
 
 
@@ -288,6 +292,11 @@ aside:nth-child(1) {
 
 aside:nth-child(2) {
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
+
+aside:nth-child(2) p {
+    padding: 1rem 1rem ;
+}
+
 }
