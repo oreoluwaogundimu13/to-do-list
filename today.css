@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    width: 100%;
+    height: 100vh;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1rem 3rem;
+}
+
+aside:nth-child(1) {
+    width: 350px;
+    height: 730px;
+    border-radius: 50px;
+    background: #F4F4F4;
+    padding: 20px 10px;
+    
+}
+
+
+aside:nth-child(1) input {
+    background: #EBEBEB;  
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border: none;
+    
+
+}
+
+
+
+.up-coming {
+    width: 100%;
+    height: 35px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Noto Sans;
+   font-size: 18px;
+   font-weight: 500;
+    line-height: 20.31px;
+    text-align: center;
+    margin-left: 10px;
+
+}
+aside:nth-child(1) form a h3 {
+    font-family: Oswald;
+   font-size: 15px;
+   font-weight: 600;
+    line-height: 22.23px;
+   text-align: left;
+   
+}
+.span {
+    width: 24px;
+    height: 13px;
+    border-radius: 50px;
+    background: #EBEBEB;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-family: Noto Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.62px;
+    text-align: center;
+}
+.today {
+    width: 100%;
+    height: 28px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20.31px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: #DFDFDF;
+}
+
+.number {
+    width: 24px;
+    height: 13px;
+   border-radius: 50px;
+   background: #FFFFFF;
+   margin-right: 20px;
+   margin-top: 10px;
+   font-family: Noto Sans;
+   font-size: 13px;
+   font-weight: 550;
+   line-height: 15.62px;
+   text-align: center;
+   color: #000000B2;
+}
+
+.calendar {
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20.31px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.sticky {
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20.31px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.work {
+    width: 100%;
+   height: 35px;
+   border-radius: 50px;
+   display: flex;
+   flex-direction: row;
+   background: #D9D9D933;
+   font-family: Noto Sans;
+   font-size: 17px;
+   font-weight: 550;
+   line-height: 20.31px;
+   text-align: center;
+
+}
+.red {
+    width: 16px;
+    height: 11px;
+    border-radius: 50px;
+    background: #FF0000;
+    margin: 13px 10px;
+
+}
+
+.personal {
+    width: 100%;
+   height: 35px;
+   border-radius: 50px;
+   display: flex;
+   flex-direction: row;
+   background: #D9D9D933;
+   margin-top: 1rem;
+   font-family: Noto Sans;
+   font-size: 17px;
+   font-weight: 550;
+   line-height: 20.31px;
+   text-align: center;
+}
+.green {
+    width: 16px;
+   height: 11px;
+   border-radius: 50px;
+   background: #61FF00;
+   margin: 13px 10px;
+
+}
+
+.study {
+    width: 100%;
+   height: 35px;
+   border-radius: 50px;
+   display: flex;
+   flex-direction: row;
+   background: #D9D9D933;
+   margin-top: 1rem;
+   font-family: Noto Sans;
+   font-size: 17px;
+   font-weight: 550;
+   line-height: 20.31px;
+   text-align: center;
+}
+.blue {
+    width: 16px;
+   height: 11px;
+   border-radius: 50px;
+   background: #5D7DF0;
+   margin: 13px 10px;
+
+}
+ 
+.add {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+    
+.settings {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    text-align: left;
+    
+
+}
+.signout {
+    
+    margin-left: 10px;
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    text-align: left;
+}
+
+.to-day {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.to-day h1 {
+    font-family: Oswald;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 53.35px;
+    text-align: left;
+
+}
+.num {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 52px;
+    height: 28px;
+    border-radius: 100px 50px 100px 100px;
+    border: 1px solid #00000066;
+    text-align: center;
+}
+
+.data {
+    width: 838px;
+    height: 600px;
+    border-radius: 30px;
+    border: 1px solid #00000066;
+    padding: 10px 40px;
+
+}
+
+.data h2 {
+    font-family: Oswald;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 53.35px;
+    text-align: left;
+}
+.data form {
+    position: relative;
+}
+.icon {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    font-size: 20px;
+}
+
+.task {
+    width: 766px;
+    height: 41px;
+   border-radius: 12px;
+   border: 1px solid #00000066;
+}
+.task::placeholder {
+    padding-left: 30px;
+}
+hr {
+    margin-top: 3px;
+}
