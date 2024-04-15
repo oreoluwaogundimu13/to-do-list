@@ -113,23 +113,23 @@ span a {
 @media (max-width: 480px) {
     
 main {
-    width: 100%;
+    width: fit-content;
     height: 100vh;
     display: flex;
     flex-direction: column;
     background: #C4C4C4;
+    align-items: center;
+    justify-content: center;
 
 }
-
-
-
 aside:nth-child(1) {
     display: none;
 }
  
 aside:nth-child(2) {
-    width: fit-content;
-    height: fit-content;
+    
+    
+
 }
 
 

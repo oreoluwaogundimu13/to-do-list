@@ -353,3 +353,57 @@ hr {
 hr {
     margin-top: 3px;
 }
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 1rem;
+
+    }
+    
+aside:nth-child(1) {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.task {
+    width: 90%;
+
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.box1 {
+    width: 100%;
+}
+.new {
+    width: 90%;
+}
+.box2 {
+    width: 100%;
+}
+.week {
+    width: 90%;
+}
+
+
+.today {
+    width: 100%;
+    
+}
+}

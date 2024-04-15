@@ -469,3 +469,35 @@ aside:nth-child(1) form a h3 {
     margin-top: 5px;
 }
 
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 1rem;
+
+    }
+    .dates {
+        width: fit-content;
+        margin-left: 50px;
+    }
+  
+.schedule {
+    width: 100%;
+}
+
+.company {
+    width: 70%;
+}
+
+}
