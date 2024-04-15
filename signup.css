@@ -118,6 +118,12 @@ span a {
     aside:nth-child(1) {
         display: none;
     }
-}
 
+     
+aside:nth-child(2){
+    width: 60vh;
+    height: 70vh;
+    padding-top: 2rem;
+}
+}
 

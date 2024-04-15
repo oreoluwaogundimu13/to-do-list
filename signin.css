@@ -217,4 +217,15 @@ p a {
     aside:nth-child(1) {
         display: none;
     }
+
+    
+aside:nth-child(2){
+    width: 50vh;
+    height: 70vh;
+    padding: 3rem 3rem;
+}
+
+   
+button {
+    width: 36vh;
 }

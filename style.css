@@ -40,7 +40,7 @@ aside:nth-child(2) {
 aside:nth-child(2) h2 {
     font-family: Oswald;
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 700;
     color: #000000;
 }
 aside:nth-child(2) p {
@@ -61,6 +61,7 @@ aside:nth-child(2) p {
     flex-direction: column;
     display: grid;
     place-items: center;
+    padding-top: 1rem;
 }
 
 button {
@@ -72,6 +73,7 @@ button {
    background: #76DE37;
    border: none;
    border-radius: 10px;
+   
    
 }
 button a {
@@ -126,9 +128,13 @@ aside:nth-child(1) {
     display: none;
 }
  
-aside:nth-child(2) {
-    
-    
+aside:nth-child(2){
+    width: 50vh;
+    height: 70vh;
+    padding: 3rem 1rem;
+}
+aside:nth-child(2) p {
+    padding: 1rem 1rem;
 
 }
 

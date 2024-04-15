@@ -237,7 +237,7 @@ aside:nth-child(1) form a h3 {
 }
 
 .dates {
-    width: 20%;
+    width: fit-content;
     height: 24px;
     display: flex;
     flex-direction: row;
@@ -249,21 +249,21 @@ aside:nth-child(1) form a h3 {
 
 }
 .day {
-    width: fit-content;
-    height: 15px;
+    width: 20%;
+    height: fit-content;
     border-radius: 5px;
     background: #C6C6C6;
     text-align: center;
 }
 .week {
-    width: 36px;
-    height: 15px;
+    width: 20%;
+    height: fit-content;
     border-radius: 5px;
     background: #FFFFFF;
 }
 .month {
-    width: 36px;
-    height: 15px;
+    width: fit-content;
+    height: fit-content;
     border-radius: 5px;
     background: #FFFFFF;
 }
@@ -283,13 +283,15 @@ aside:nth-child(1) form a h3 {
 }
 
 .click {
-    width: 50px;
-    height: 20px;
+    width: 20%;
+    height: 50%;
     font-family: Noto Sans;
-    font-size: 9px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 12.26px;
     text-align: left;
+    padding: 9px;
+    border: 1px solid black;
 
 
 }
@@ -499,5 +501,10 @@ aside:nth-child(1) form a h3 {
 .company {
     width: 70%;
 }
+ 
 
+.click {
+    
+
+}
 }
